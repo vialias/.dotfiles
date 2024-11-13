@@ -9,6 +9,7 @@ arc-gtk-theme-eos
 archlinux-xdg-menu
 aspell
 atril
+autorandr
 awesome-terminal-fonts
 b43-fwcutter
 base
@@ -21,6 +22,7 @@ bluez-utils
 brightnessctl
 btop
 btrfs-progs
+calcurse
 cantarell-fonts
 cryptsetup
 cups
@@ -59,6 +61,7 @@ ethtool
 exfatprogs
 f2fs-tools
 feh
+ferdium
 ffmpegthumbnailer
 firefox
 firewalld
@@ -129,6 +132,7 @@ mesa-utils
 modemmanager
 mpv
 mtools
+mutt
 nano
 nano-syntax-highlighting
 neofetch
@@ -161,6 +165,7 @@ plocate
 polkit-gnome
 poppler-glib
 power-profiles-daemon
+protonmail-bridge-bin
 pv
 python
 python-capng
@@ -185,7 +190,9 @@ scrot
 sg3_utils
 smartmontools
 sof-firmware
+splint
 splix
+stow
 sudo
 sysfsutils
 sysstat
@@ -220,6 +227,7 @@ thunar-volman
 thunderbird
 tldr
 tmux
+tree
 ttf-bitstream-vera
 ttf-dejavu
 ttf-liberation

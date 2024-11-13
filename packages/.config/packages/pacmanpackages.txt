@@ -154,6 +154,7 @@ numlockx
 nwg-look
 openssh
 pacman-contrib
+pandoc-cli
 pavucontrol
 perl
 pipewire-alsa

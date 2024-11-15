@@ -9,3 +9,7 @@ clear
 reboot
 bash installpacman.fish
 claer
+time ./14-1simplefunction 
+clear
+fish
+exit

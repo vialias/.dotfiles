@@ -89,6 +89,7 @@ gvfs-gphoto2
 gvfs-mtp
 gvfs-nfs
 gvfs-smb
+gvim
 haveged
 hdparm
 hplip
@@ -240,7 +241,6 @@ upower
 usb_modeswitch
 usbutils
 vi
-vim
 vlc
 welcome
 wget

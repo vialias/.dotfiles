@@ -11,6 +11,8 @@ filetype plugin on
 set laststatus=2
 " set font and character size
 set guifont=ProggyCleanTT\ 12
+" set vimclipboard = systemclipboard
+set clipboard=unnamedplus
 
 " vim plug
 call plug#begin('~/.vim/plugged')

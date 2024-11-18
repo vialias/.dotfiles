@@ -35,11 +35,13 @@ Plug 'mhinz/vim-startify' "tool für custom startnachricht
 
 call plug#end()
 
-" colorscheme
-
-" color meta5
-color moonfly
+" colorschemes
+" color moonfly
 " color focuspoint
+color 256_noir
+" color afterglow
+" color sunbather
+
 
 
 " Startup NERDTree all the time

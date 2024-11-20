@@ -449,7 +449,7 @@ exec --no-startup-id xset s 480 dpms 600 600 600
 #exec --no-startup-id blueberry-tray
 
 # networkmanager-applet
-#exec --no-startup-id nm-applet
+# exec --no-startup-id nm-applet
 
 # clipman-applet
 #exec --no-startup-id xfce4-clipman

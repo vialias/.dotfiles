@@ -1,3 +1,4 @@
-Spotify	com.spotify.Client	1.2.45.454.gc16ec9f6	stable	system
-Obsidian	md.obsidian.Obsidian	1.7.6	stable	system
-Zoom	us.zoom.Zoom	6.2.6.2503	stable	system
+Spotify	com.spotify.Client	1.2.48.405.gf2c48e6f	stable	system
+VSCodium	com.vscodium.codium	1.95.2.24313	stable	system
+Obsidian	md.obsidian.Obsidian	1.7.7	stable	system
+Zoom	us.zoom.Zoom	6.2.10.4983	stable	system

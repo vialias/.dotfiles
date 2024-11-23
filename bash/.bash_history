@@ -13,3 +13,5 @@ time ./14-1simplefunction
 clear
 fish
 exit
+time ./14-4passingargbypointer 
+exit

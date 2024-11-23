@@ -36,9 +36,9 @@ Plug 'mhinz/vim-startify' "tool für custom startnachricht
 call plug#end()
 
 " colorschemes
-" color moonfly
+color moonfly
 " color focuspoint
-color 256_noir
+" color 256_noir
 " color afterglow
 " color sunbather
 

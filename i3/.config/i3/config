@@ -405,7 +405,7 @@ exec --no-startup-id ~/.screenlayout/monitor.sh
 exec --no-startup-id sleep 1 && feh --bg-fill /home/luc4/Pictures/geometric-triangles-2880-1620-v0-sp75h0wvcvvd1.webp
 
 # set powersavings for display:
-exec --no-startup-id xset s 480 dpms 600 600 600
+exec --no-startup-id xset s 0 dpms 600 600 600
 
 # disable power saving (for example if using xscreensaver)
 #exec --no-startup-id xset -dpms
@@ -449,7 +449,7 @@ exec --no-startup-id xset s 480 dpms 600 600 600
 #exec --no-startup-id blueberry-tray
 
 # networkmanager-applet
-# exec --no-startup-id nm-applet
+exec --no-startup-id nm-applet
 
 # clipman-applet
 #exec --no-startup-id xfce4-clipman
@@ -515,6 +515,7 @@ client.urgent		    	$urgentred	$urgentred	$white		$yellowbrown	$yellowbrown
 bar {
 		font pango: Noto Sans Regular 10
 		# status_command i3blocks -c ~/.config/i3/i3blocks.conf
+		output primary
 		status_command i3status
 	    	position bottom
 #	    	i3bar_command i3bar --transparency
@@ -547,30 +548,38 @@ strip_workspace_numbers yes
 # https://gist.github.com/lopspower/03fb1cc0ac9f32ef38f4
 # #08052be6 --> e6=90%
 
-# bar {
-#	font pango: Noto Sans Regular 10
-#	status_command i3blocks -c ~/.config/i3/i3blocks-2.conf
-#	i3bar_command i3bar --transparency
-#	output HDMI-0
-#	position bottom
-#
-# When strip_workspace_numbers is set to yes,
-# any workspace that has a name of the form
-# “[n][:][NAME]” will display only the name.
-#strip_workspace_numbers yes
-##strip_workspace_name no
-#
-#	colors {
-#		separator          $purple
-#		background         $darkbluetrans
-#        	statusline         $white
-#					border		bg		txt		indicator
-#		focused_workspace	$lighterblue	$lighterblue	$darkblue	$purple
-#		active_workspace	$lightdblue	$lightdblue	$darkblue	$purple
-#		inactive_workspace	$darkblue	$darkblue	$lightdblue	$purple
-#		urgent_workspace	$urgentred	$urgentred	$white		$purple
-#	}
-#}
+ bar {
+	font pango: Noto Sans Regular 10
+	status_command ~/.config/i3status/config_non_primary
+	output DisplayPort-0
+	output DisplayPort-1
+	output DisplayPort-2
+	output DisplayPort-3
+	output DisplayPort-4
+	output DisplayPort-6
+	output DisplayPort-8
+	output DisplayPort-9
+	output DisplayPort-10
+	output DisplayPort-11
+	position bottom
+
+ # When strip_workspace_numbers is set to yes,
+ # any workspace that has a name of the form
+ # “[n][:][NAME]” will display only the name.
+strip_workspace_numbers yes
+#strip_workspace_name no
+
+	colors {
+		    separator          $white
+		    background         $black
+		    statusline         $white
+#                          		border 		        bg		txt		indicator
+		focused_workspace	$mediumgrey	   	$grey		$darkgrey	$purple
+		active_workspace	$lightblue      	$mediumgrey	$darkgrey	$purple
+		inactive_workspace	$darkgrey   		$darkgrey	$grey		$purple
+		urgent_workspace	$urgentred	    	$urgentred	$white		$purple
+	}
+}
 
 #####################################
 # Application menu handled by rofi: #

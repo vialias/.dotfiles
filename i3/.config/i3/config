@@ -405,7 +405,7 @@ exec --no-startup-id ~/.screenlayout/monitor.sh
 exec --no-startup-id sleep 1 && feh --bg-fill /home/luc4/Pictures/geometric-triangles-2880-1620-v0-sp75h0wvcvvd1.webp
 
 # set powersavings for display:
-exec --no-startup-id xset s 0 dpms 600 600 600
+# exec --no-startup-id xset s 0 dpms 600 600 600
 
 # disable power saving (for example if using xscreensaver)
 #exec --no-startup-id xset -dpms
@@ -517,7 +517,7 @@ bar {
 		# status_command i3blocks -c ~/.config/i3/i3blocks.conf
 		output primary
 		status_command i3status
-	    	position bottom
+	    	position top
 #	    	i3bar_command i3bar --transparency
 # it could be that you have no primary display set: set one (xrandr --output <output> --primary)
 # reference: https://i3wm.org/docs/userguide.html#_tray_output
@@ -550,7 +550,7 @@ strip_workspace_numbers yes
 
  bar {
 	font pango: Noto Sans Regular 10
-	status_command ~/.config/i3status/config_non_primary
+	status_command i3status --config ~/.config/i2status/config_non_primary
 	output DisplayPort-0
 	output DisplayPort-1
 	output DisplayPort-2
@@ -561,7 +561,7 @@ strip_workspace_numbers yes
 	output DisplayPort-9
 	output DisplayPort-10
 	output DisplayPort-11
-	position bottom
+	position top
 
  # When strip_workspace_numbers is set to yes,
  # any workspace that has a name of the form

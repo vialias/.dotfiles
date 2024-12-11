@@ -22,14 +22,13 @@
     follow = none
 
     ### Geometry ###
-
     # dynamic width from 0 to 300
     # width = (0, 300)
     # constant width of 300
     width = 300
 
     # The maximum height of a single notification, excluding the frame.
-    height = 300
+    height = 100
 
     # Position the notification in the top right corner
     origin = bottom-right
@@ -88,8 +87,6 @@
 
     # Defines width in pixels of frame around the notification window.
     # Set to 0 to disable.
-    frame_width = 1
-
     # Defines color of the frame around the notification window.
     frame_color = "#000000"
 

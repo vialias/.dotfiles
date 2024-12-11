@@ -408,7 +408,7 @@ exec --no-startup-id sleep 1 && feh --bg-fill /home/luc4/Pictures/geometric-tria
 # exec --no-startup-id xset s 0 dpms 600 600 600
 
 # disable power saving (for example if using xscreensaver)
-#exec --no-startup-id xset -dpms
+exec --no-startup-id xset s off -dpms
 
 # use xautolock to use autosuspend rules for mobile devices
 # https://wiki.archlinux.org/title/Session_lock#xautolock
@@ -517,7 +517,7 @@ bar {
 		# status_command i3blocks -c ~/.config/i3/i3blocks.conf
 		output primary
 		status_command i3status
-	    	position top
+	    	position bottom
 #	    	i3bar_command i3bar --transparency
 # it could be that you have no primary display set: set one (xrandr --output <output> --primary)
 # reference: https://i3wm.org/docs/userguide.html#_tray_output
@@ -557,11 +557,11 @@ strip_workspace_numbers yes
 	output DisplayPort-3
 	output DisplayPort-4
 	output DisplayPort-6
-	output DisplayPort-8
+	# output DisplayPort-8
 	output DisplayPort-9
 	output DisplayPort-10
 	output DisplayPort-11
-	position top
+	position bottom
 
  # When strip_workspace_numbers is set to yes,
  # any workspace that has a name of the form

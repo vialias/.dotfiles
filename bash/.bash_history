@@ -15,3 +15,5 @@ fish
 exit
 time ./14-4passingargbypointer 
 exit
+iwconfig
+exit

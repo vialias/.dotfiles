@@ -45,9 +45,9 @@ dunst
 e2fsprogs
 efibootmgr
 efitools
+endeavouros-branding
 endeavouros-keyring
 endeavouros-mirrorlist
-endeavouros-theming
 endeavouros-xfce4-terminal-colors
 eos-apps-info
 eos-hooks
@@ -242,6 +242,7 @@ upower
 usb_modeswitch
 usbutils
 vi
+virtualbox-host-modules-arch
 vlc
 welcome
 wget
@@ -268,6 +269,7 @@ xorg-xinit
 xorg-xinput
 xorg-xkill
 xorg-xrandr
+xournalpp
 xterm
 yay
 yazi

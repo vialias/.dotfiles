@@ -17,3 +17,19 @@ time ./14-4passingargbypointer
 exit
 iwconfig
 exit
+clear
+cd (find * -type d | fzf)
+cd $(find * -type d | fzf)
+cd $(find .* -type d | fzf)
+cd $(find * -type d | fzf)
+cd .dotfiles
+ls
+cd ..
+la
+la
+ls -la
+clear
+ls -l
+ll
+ll
+fish

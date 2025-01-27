@@ -25,6 +25,7 @@ btop
 btrfs-progs
 calcurse
 cantarell-fonts
+chromium
 cryptsetup
 cups
 cups-browsed

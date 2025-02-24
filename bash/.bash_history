@@ -33,3 +33,6 @@ ls -l
 ll
 ll
 fish
+echo 'export GDK_SCALE=2' >> ~/.xprofile
+echo 'export GDK_DPI_SCALE=0.5' >> ~/.xprofile
+reboot

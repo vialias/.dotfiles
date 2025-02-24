@@ -1,5 +1,5 @@
-sudo pacman -S --needed - < package_list.txt
-sudo yay -S --needed - < package_list.txt
+sudo pacman -S --needed - < pacmanpackages.txt
+sudo yay -S --needed - < aurpackages.txt
 for pkg in (cat flatpackpackages.txt)
     flatpak install -y $pkg
 end

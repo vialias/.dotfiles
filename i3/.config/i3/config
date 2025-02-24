@@ -23,7 +23,13 @@
 # is used in the bar {} block below.
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
-font pango: Noto Sans Regular 10
+font pango: Noto Sans Regular 20
+
+# scaling
+# exec --no-startup-id xrandr --output eDP-1 --scale 1x1 --dpi 144
+# exec --no-startup-id xrandr --output eDP-1 --scale 0.5x0.5
+
+
 
 # set the mod key to the winkey:
 set $mod Mod4

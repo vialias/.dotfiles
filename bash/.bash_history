@@ -36,3 +36,14 @@ fish
 echo 'export GDK_SCALE=2' >> ~/.xprofile
 echo 'export GDK_DPI_SCALE=0.5' >> ~/.xprofile
 reboot
+xrdb -merge ~/.Xresources
+fish
+xrdb -merge ~/.Xresources
+vim .Xresources 
+xrdb -merge ~/.Xresources
+vim .Xresources 
+xrdb -merge ~/.Xresources
+vim .Xresources 
+xrdb -merge ~/.Xresources
+fish
+bash .changescaling.bash 

@@ -23,7 +23,7 @@
 # is used in the bar {} block below.
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
-font pango: Noto Sans Regular 20
+font pango: Noto Sans Regular 14
 
 # scaling
 # exec --no-startup-id xrandr --output eDP-1 --scale 1x1 --dpi 144

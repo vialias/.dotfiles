@@ -47,3 +47,17 @@ vim .Xresources
 xrdb -merge ~/.Xresources
 fish
 bash .changescaling.bash 
+mount | grep /run/media/luc4/Backup\ Luca/
+exit
+sudo mount -t vfat /dev/sda1 /mnt/Backup   -o rw,uid=1000,gid=1000,fmask=0111,dmask=0000
+exit
+[ -d /sys/firmware/efi ] && echo "UEFI" || echo "Legacy BIOS"
+sudo efibootmgr -v
+bootctl status
+sudo efibootmgr -v | grep -E 'Boot0000|Boot0001'
+sudo efibootmgr -v | grep -E 'Boot0003|Boot0001'
+sudo efibootmgr -v | grep -E 'Boot0002|Boot0001'
+sudo efibootmgr -v | grep -E 'Boot0004|Boot0001'
+sudo efibootmgr -v | grep -E 'Boot0005|Boot0001'
+sudo efibootmgr -v | grep -E 'Boot0000|Boot0001'
+tmux 

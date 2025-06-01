@@ -94,3 +94,8 @@ zsh
 exit
 echo $SHELL
 exit
+zsh
+echo $SHELL
+fish
+chsh -s $(which zsh)
+fish

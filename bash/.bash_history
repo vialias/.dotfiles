@@ -61,3 +61,36 @@ sudo efibootmgr -v | grep -E 'Boot0004|Boot0001'
 sudo efibootmgr -v | grep -E 'Boot0005|Boot0001'
 sudo efibootmgr -v | grep -E 'Boot0000|Boot0001'
 tmux 
+PS
+PS1 ="Hello Prompt"
+PS1="Hello Prompt"
+fuck you
+ls
+la
+exit
+PS1="\\u@\\h: \\W\\$"
+cd $(find -type d | fzf)
+pwd
+cd $(find -type d | fzf)
+cd Documents/
+ls
+cd Uni
+PS1='\h \w$(__git_ps1 "(%s)") \$ '
+cd SS\ 2025/
+ls
+cd Russisch/
+la
+ls
+ls -a
+cd 
+fish 
+exit
+la
+clear
+exit
+grep ssh ~/.bash_history
+grep ssh ~/.dotfiles/bash/.bash_history
+zsh
+exit
+echo $SHELL
+exit

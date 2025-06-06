@@ -25,6 +25,7 @@ brightnessctl
 btop
 btrfs-progs
 calcurse
+caligula
 cantarell-fonts
 cryptsetup
 device-mapper

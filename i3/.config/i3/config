@@ -563,7 +563,7 @@ strip_workspace_numbers yes
 	output DisplayPort-3
 	output DisplayPort-4
 	output DisplayPort-6
-	# output DisplayPort-8
+	output DisplayPort-8
 	output DisplayPort-9
 	output DisplayPort-10
 	output DisplayPort-11

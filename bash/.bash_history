@@ -99,3 +99,19 @@ echo $SHELL
 fish
 chsh -s $(which zsh)
 fish
+y
+cd ..
+cd ..
+cd ..
+la
+cd bash
+la
+vim .bashrc
+exit
+y
+h
+y
+pwd
+y
+pwd
+exit

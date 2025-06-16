@@ -152,6 +152,8 @@ bindcode $mod+Shift+90 	 move container to workspace  $ws10
 bindsym $mod+Ctrl+greater move workspace to output right
 bindsym $mod+Ctrl+less move workspace to output left
 bindsym $mod+Ctrl+u move workspace to output up
+bindsym $mod+Ctrl+d move workspace to output down
+
 
 # resize window (you can also use the mouse for that):
 mode "resize" {

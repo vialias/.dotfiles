@@ -107,4 +107,3 @@ source $ZSH/oh-my-zsh.sh
 #
 # EDITOR
 export EDITOR=vim
-

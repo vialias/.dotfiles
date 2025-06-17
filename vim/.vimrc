@@ -31,6 +31,7 @@ Plug 'christoomey/vim-tmux-navigator'
 Plug 'junegunn/fzf.vim'
 Plug 'mhinz/vim-startify' "tool für custom startnachricht
 Plug 'christoomey/vim-tmux-navigator'
+Plug 'tpope/vim-fugitive'
 "Funktioniert nur so halb/ git status passt nicht so wirklich
 "Plug 'bluz71/vim-mistfly-statusline'
 

@@ -567,6 +567,7 @@ strip_workspace_numbers yes
 	status_command i3status
 	# turns tray on an off
 	# tray_output primary
+	tray_output none
 	position bottom
 
  # When strip_workspace_numbers is set to yes,

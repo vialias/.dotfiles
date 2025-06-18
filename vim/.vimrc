@@ -32,13 +32,15 @@ Plug 'junegunn/fzf.vim'
 Plug 'mhinz/vim-startify' "tool für custom startnachricht
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'tpope/vim-fugitive'
+Plug 'dylanaraps/wal.vim'
 "Funktioniert nur so halb/ git status passt nicht so wirklich
 "Plug 'bluz71/vim-mistfly-statusline'
 
 call plug#end()
 
 " colorschemes
-color moonfly
+" color moonfly
+color wal
 " color focuspoint
 " color 256_noir
 " color afterglow

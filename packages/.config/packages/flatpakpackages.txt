@@ -1,2 +1,1 @@
 Obsidian	md.obsidian.Obsidian	1.8.10	stable	system
-Ferdium	org.ferdium.Ferdium	7.1.0	stable	system

@@ -522,15 +522,18 @@ set $yellowbrown	#e1b700
 # NOTE: The '#f0f0f0' in the lines below is the color i3 will use if
 # it fails to get colors from Xresources.
 set_from_resource $fg i3wm.color7 #f0f0f0
-set_from_resource $bg i3wm.color2 #f0f0f0
-set_from_resource $rg i3wm.color3 #f0f0f0
+set_from_resource $darkest i3wm.color0 #f0f0f0
+set_from_resource $rg i3wm.color5 #f0f0f0
+set_from_resource $tg i3wm.color4 #f0f0f0
+set_from_resource $hg i3wm.color3 #f0f0f0
+set_from_resource $yg i3wm.color1 #f0f0f0
 
-# class                 border  backgr. text indicator child_border
-client.focused          $rg     $bg     $black  $bg       $bg
-client.focused_inactive $bg     $bg     $black  $bg       $bg
-client.unfocused        $bg     $bg     $black  $bg       $bg
-client.urgent           $bg     $bg     $black  $bg       $bg
-client.placeholder      $bg     $bg     $black  $bg       $bg
+# class                 border  backgr. 	text 		indicator child_border
+client.focused          $fg     $tg    		$darkest  $bg       $bg
+client.focused_inactive $rg     $darkest    $tg  	  $bg       $bg
+client.unfocused        $rg     $darkest    $tg 	  $bg       $bg
+client.urgent           $rg     $darkest    $tg		  $bg	    $bg
+client.placeholder      $rg     $darkest    $tg       $bg       $bg
 
 client.background       $fg
 
@@ -561,8 +564,8 @@ strip_workspace_numbers yes
 ##strip_workspace_name no
 
 		    colors {
-		    separator          $white
-		    background         $black
+		    separator          $fg
+		    background         $darkest
 		    statusline         $white
 #                          		border 		        bg		txt		indicator
 		focused_workspace	$mediumgrey	   	$grey		$darkgrey	$purple
@@ -597,9 +600,9 @@ strip_workspace_numbers yes
 #strip_workspace_name no
 
 	colors {
-		    separator          $white
-		    background         $black
-		    statusline         $white
+		    separator          $fg
+		    background         $darkest
+		    statusline         $fg
 #                          		border 		        bg		txt		indicator
 		focused_workspace	$mediumgrey	   	$grey		$darkgrey	$purple
 		active_workspace	$lightblue      	$mediumgrey	$darkgrey	$purple

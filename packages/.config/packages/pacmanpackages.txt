@@ -10,7 +10,6 @@ arandr
 arc-gtk-theme-eos
 archlinux-xdg-menu
 aspell
-atril
 autorandr
 awesome-terminal-fonts
 b43-fwcutter
@@ -99,6 +98,7 @@ julia
 keepassxc
 kernel-install-for-dracut
 kitty
+lazygit
 less
 libdvdcss
 libgsf
@@ -170,6 +170,8 @@ python-packaging
 python-pandas
 python-pip
 python-pyqt5
+python-pywal16
+python-pywalfox
 python-scipy
 qutebrowser
 rebuild-detector
@@ -262,5 +264,7 @@ xterm
 yay
 yazi
 yt-dlp
+zathura
+zathura-pdf-poppler
 zip
 zsh

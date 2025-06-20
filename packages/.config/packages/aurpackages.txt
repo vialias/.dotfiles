@@ -5,6 +5,8 @@ neofetch
 python-affine
 python-contextily
 python-mercantile
+python-pywal16
+python-pywalfox
 python-rasterio
 python-xyzservices
 tetris-terminal-git

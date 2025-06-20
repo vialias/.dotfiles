@@ -1,3 +1,12 @@
 # yazi.toml
 [mgr]
 # show_hidden = true
+# ~/.config/yazi/yazi.toml
+[opener]
+# Define a "zathura" opener that launches Zathura in blocking mode
+zathura = [{ run = "zathura --fork \"$@\"", desc = "Open with Zathura (detached)", block = false, orphan = true, "for" = "unix" }]
+[open]
+# Prepend a rule so that any *.pdf uses the "zathura" opener first
+prepend_rules = [
+  { name = "*.pdf", use = "zathura" },
+]

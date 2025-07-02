@@ -115,3 +115,5 @@ pwd
 y
 pwd
 exit
+fish
+exit

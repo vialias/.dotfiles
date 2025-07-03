@@ -1,11 +1,10 @@
 vim.cmd("set nu rnu")
-vim.cmd("set tabstop=4")
+vim.cmd("set tabstop=2")
 vim.cmd("set ai")
 vim.cmd("syntax on")
 vim.cmd("set shiftwidth=4")
 vim.cmd("set path+=**")
 vim.cmd("set ls=2")
-vim.g.mapleader = " "
 
 -- Bootstrap lazy.nvim
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
@@ -31,20 +30,46 @@ vim.g.mapleader = " "
 vim.g.maplocalleader = "\\"
 
 -- Setup lazy.nvim
-require("lazy").setup({
-  spec = {
-    -- add your plugins here
+local plugins = {
 	{
     'nvim-telescope/telescope.nvim', tag = '0.1.8',
+-- or                              , branch = '0.1.x',
       dependencies = { 'nvim-lua/plenary.nvim' }
-    }
+    },
+		{
+  "christoomey/vim-tmux-navigator",
+  cmd = {
+    "TmuxNavigateLeft",
+    "TmuxNavigateDown",
+    "TmuxNavigateUp",
+    "TmuxNavigateRight",
+    "TmuxNavigatePrevious",
+    "TmuxNavigatorProcessList",
   },
-  -- Configure any other settings here. See the documentation for more details.
-  -- colorscheme that will be used when installing plugins.
-  install = { colorscheme = { "habamax" } },
-  -- automatically check for plugin updates
-  checker = { enabled = true },
-})
+  keys = {
+    { "<c-h>", "<cmd><C-U>TmuxNavigateLeft<cr>" },
+    { "<c-j>", "<cmd><C-U>TmuxNavigateDown<cr>" },
+    { "<c-k>", "<cmd><C-U>TmuxNavigateUp<cr>" },
+    { "<c-l>", "<cmd><C-U>TmuxNavigateRight<cr>" },
+    { "<c-\\>", "<cmd><C-U>TmuxNavigatePrevious<cr>" },
+  },
+	{"nvim-treesitter/nvim-treesitter", branch = 'master', lazy = false, build = ":TSUpdate"},
+
+},
+
+}
+
+
+require("lazy").setup(plugins, opts)
+
+
 local builtin = require("telescope.builtin")
 vim.keymap.set('n','<C-p>', builtin.find_files, {})
 vim.keymap.set('n','<leader>fg', builtin.live_grep, {})
+
+local config = require("nvim-treesitter.configs")
+config.setup({
+	ensure_installed = {"lua", "python", "julia", "c"},
+	highlight = { enable = true },
+	indent = { enable = true },
+})

@@ -37,11 +37,4 @@ require("lazy").setup("plugins")
 
 
 
-local config = require("nvim-treesitter.configs")
-config.setup({
-	ensure_installed = {"lua", "python", "julia", "c"},
-	highlight = { enable = true },
-	indent = { enable = true },
-})
 
-vim.keymap.set('n', '<C-n>', ':Neotree toggle left<CR>', {})

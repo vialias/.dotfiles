@@ -437,6 +437,10 @@ exec --no-startup-id xset s off -dpms
 # alternative if you installed aside with XFCE4:
 # exec --no-startup-id /usr/lib/xfce4/notifyd/xfce4-notifyd &
 
+# Run battery check every 5 minutes
+exec --no-startup-id bash -c 'while true; do ~/.dotfiles/i3/.config/i3/scripts/battery_notifier.sh; sleep 120; done &'
+
+
 # autotiling script
 # https://github.com/nwg-piotr/autotiling
 # `yay -S autotiling ;) (it is in AUR)

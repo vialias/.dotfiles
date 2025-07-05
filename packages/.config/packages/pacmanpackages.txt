@@ -129,6 +129,8 @@ mutt
 nano
 nano-syntax-highlighting
 neofetch
+neovim
+nerdfetch
 netctl
 network-manager-applet
 networkmanager
@@ -169,6 +171,7 @@ python-numpy
 python-packaging
 python-pandas
 python-pip
+python-pygame
 python-pyqt5
 python-pywal16
 python-pywalfox

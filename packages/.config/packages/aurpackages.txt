@@ -2,6 +2,7 @@ electron33
 haskell-data-array-byte
 jmtpfs
 neofetch
+nerdfetch
 python-affine
 python-contextily
 python-mercantile

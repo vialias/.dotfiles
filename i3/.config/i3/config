@@ -547,39 +547,43 @@ client.background       $fg
 # bar settings (input comes from i3blocks) #
 ############################################
 
+# polybar launch
+exec --no-startup-id ~/.dotfiles/polybar/.config/polybar/launch.sh
+
+
 # Start i3bar to display a workspace bar
 # (plus the system information i3status finds out, if available)
 # NONPRIMARY OUTPUT BAR
-bar {
-		font pango: Noto Sans Regular 10
-		# status_command i3blocks -c ~/.config/i3/i3blocks.conf
-		status_command i3status --config ~/.config/i3status/config_non_primary 
-		output nonprimary
-		tray_output none
-		position bottom
-#	   	i3bar_command i3bar --transparency
-# it could be that you have no primary display set: set one (xrandr --output <output> --primary)
-# reference: https://i3wm.org/docs/userguide.html#_tray_output
-		    #tray_output primary
-		    tray_padding 0
-
-# When strip_workspace_numbers is set to yes,
-# any workspace that has a name of the form
-# “[n][:][NAME]” will display only the name.
-strip_workspace_numbers yes
-##strip_workspace_name no
-
-		    colors {
-		    separator          $fg
-		    background         $darkest
-		    statusline         $white
-#                          		border 		        bg		txt		indicator
-		focused_workspace	$mediumgrey	   	$grey		$darkgrey	$purple
-		active_workspace	$lightblue      	$mediumgrey	$darkgrey	$purple
-		inactive_workspace	$darkgrey   		$darkgrey	$grey		$purple
-		urgent_workspace	$urgentred	    	$urgentred	$white		$purple
-	}
-}
+# bar {
+# 		font pango: Noto Sans Regular 10
+# 		# status_command i3blocks -c ~/.config/i3/i3blocks.conf
+# 		status_command i3status --config ~/.config/i3status/config_non_primary 
+# 		output nonprimary
+# 		tray_output none
+# 		position bottom
+# #	   	i3bar_command i3bar --transparency
+# # it could be that you have no primary display set: set one (xrandr --output <output> --primary)
+# # reference: https://i3wm.org/docs/userguide.html#_tray_output
+# 		    #tray_output primary
+# 		    tray_padding 0
+#
+# # When strip_workspace_numbers is set to yes,
+# # any workspace that has a name of the form
+# # “[n][:][NAME]” will display only the name.
+# strip_workspace_numbers yes
+# ##strip_workspace_name no
+#
+# 		    colors {
+# 		    separator          $fg
+# 		    background         $darkest
+# 		    statusline         $white
+# #                          		border 		        bg		txt		indicator
+# 		focused_workspace	$mediumgrey	   	$grey		$darkgrey	$purple
+# 		active_workspace	$lightblue      	$mediumgrey	$darkgrey	$purple
+# 		inactive_workspace	$darkgrey   		$darkgrey	$grey		$purple
+# 		urgent_workspace	$urgentred	    	$urgentred	$white		$purple
+# 	}
+# }
 
 # you can add different bars for multidisplay setups on each display:
 # set output HDMI-0 to the display you want the bar, --transparency can be set.
@@ -590,32 +594,33 @@ strip_workspace_numbers yes
  # PRIMARY OUTPUT BAR
  # primary bar is after non primary, so the the wifi, bluetooth and network icons are at the
  # primary output (i still have to figure out, why this behaves like this)
- bar {
-	font pango: Noto Sans Regular 10
-	output primary
-	status_command i3status
-	# turns tray on an off
-	# tray_output primary
-	tray_output none
-	position bottom
 
- # When strip_workspace_numbers is set to yes,
- # any workspace that has a name of the form
- # “[n][:][NAME]” will display only the name.
-strip_workspace_numbers yes
-#strip_workspace_name no
-
-	colors {
-		    separator          $fg
-		    background         $darkest
-		    statusline         $fg
-#                          		border 		        bg		txt		indicator
-		focused_workspace	$mediumgrey	   	$grey		$darkgrey	$purple
-		active_workspace	$lightblue      	$mediumgrey	$darkgrey	$purple
-		inactive_workspace	$darkgrey   		$darkgrey	$grey		$purple
-		urgent_workspace	$urgentred	    	$urgentred	$white		$purple
-	}
-}
+#  bar {
+# 	font pango: Noto Sans Regular 10
+# 	output primary
+# 	status_command i3status
+# 	# turns tray on an off
+# 	# tray_output primary
+# 	tray_output none
+# 	position bottom
+#
+#  # When strip_workspace_numbers is set to yes,
+#  # any workspace that has a name of the form
+#  # “[n][:][NAME]” will display only the name.
+# strip_workspace_numbers yes
+# #strip_workspace_name no
+#
+# 	colors {
+# 		    separator          $fg
+# 		    background         $darkest
+# 		    statusline         $fg
+# #                          		border 		        bg		txt		indicator
+# 		focused_workspace	$mediumgrey	   	$grey		$darkgrey	$purple
+# 		active_workspace	$lightblue      	$mediumgrey	$darkgrey	$purple
+# 		inactive_workspace	$darkgrey   		$darkgrey	$grey		$purple
+# 		urgent_workspace	$urgentred	    	$urgentred	$white		$purple
+# 	}
+# }
 
 #####################################
 # Application menu handled by rofi: #

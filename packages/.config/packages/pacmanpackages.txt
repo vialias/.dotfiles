@@ -158,6 +158,7 @@ pkgfile
 playerctl
 plocate
 polkit-gnome
+polybar
 poppler-glib
 power-profiles-daemon
 pv

@@ -1,3 +1,5 @@
+output eDP
+off
 output DisplayPort-0
 off
 output DisplayPort-1
@@ -15,8 +17,6 @@ off
 output DisplayPort-7
 off
 output DisplayPort-9
-off
-output eDP
 off
 output DisplayPort-10
 crtc 2
@@ -37,7 +37,7 @@ crtc 0
 mode 2560x1440
 pos 1080x240
 primary
-rate 59.95
+rate 120.00
 x-prop-colorspace Default
 x-prop-max_bpc 8
 x-prop-non_desktop 0

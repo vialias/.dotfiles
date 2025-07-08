@@ -117,3 +117,107 @@ pwd
 exit
 fish
 exit
+cd .dotfiles
+ls
+stow i3
+cd ..
+sudo pacman -S stow
+sudo pacman -S caligula
+sudo pacman -S flatpak
+flatpak install obsidian
+flatpak install spotify
+bluetoothctl
+sudo pacman -s bluetoothctl
+sudo pacman -S bluetoothctl
+sudo pacman -S python
+sudo pacman -S thunderbird
+sudo pacman -S oh-my-zsh
+cd /etc/
+cd X11
+ls
+sudo pacman -S polybar
+./launch.sh 
+nvim launch.sh
+sudo pacman -S xrandr
+xrandr
+sudo pacman -S xrandr
+clear
+sudo pacman -S pywal16
+wal -R
+sudo pacman -S pywal
+sudo pacman -S ffmpeg
+sudo pacman vlc
+sudo pacman -S vlc
+yay -S pywal16
+xrandr
+sudo pacman -
+sudo pacman -S xrandr
+sudo pacman -S xorg-xrandr
+xrandr
+./launch.sh
+man wal
+yay -S python-pywal16
+sudo pacman -S yay
+sudo pacman -S base-devel
+sudo pacman -S --needed base-devel git
+cd ~/Downloads
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
+cd
+ yay -S python-pywal16
+wal -R
+chsh
+git clone git@github.com:vialias/.dotfiles.git
+git clone https://github.com/vialias/.dotfiles.git
+ssh-keygen
+sudo pacman -S libreoffice
+cd .ssh
+ls
+open id_ed25519.pub
+libreoffice 
+git clone git@github.com:vialias/.dotfiles.git
+cd
+cd .ssh
+ls
+cd 
+ls -la
+ls
+la
+sudo pacman -S zsh
+zsh
+clear
+lsblk
+sudo cryptsetup open /dev/sdb Backup
+lsblk
+sudo mkdir -p /mnt/Backup
+sudo mount Backup /mnt/backup
+sudo mount Backup /mnt/Backup
+sudo mount /dev/dm1 /mnt/Backup
+sudo mount /dev/dm-1 /mnt/Backup
+sudo mount /dev/sdb/dm-1 /mnt/Backup
+sudo dev/mapper/Backup /mnt/Backup
+sudo mount dev/mapper/Backup /mnt/Backup
+sudo mount /dev/mapper/Backup /mnt/Backup
+lsblk
+cd /mnt/Backup/
+ls
+cd fw13_backup/
+ls
+rsync
+sudo pacman -S rsync
+sudo rsync -aAXHv --numeric-ids /mnt/Backup/fw13_backup/ /home/luc4/
+lsblk
+sudo umount /mnt/Backup
+cd
+sudo umount /mnt/Backup
+lsblk
+sudo cryptsetup close Backup
+lsblk
+zsh
+kitty -version
+clear
+sudo pacman -S yazi
+wal -
+wal -R
+zsh

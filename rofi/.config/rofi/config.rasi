@@ -4,3 +4,8 @@
 
 /* Light theme. */
 // @import "~/.cache/wal/colors-rofi-light"
+configuration {
+ modi: "window,drun,ssh,combi";
+ font: "Adwaita Mono 10";
+ combi-modi: "window,drun,ssh";
+}

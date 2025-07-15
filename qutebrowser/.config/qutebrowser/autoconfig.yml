@@ -6,6 +6,8 @@
 
 config_version: 2
 settings:
+  content.javascript.clipboard:
+    https://github.com: access-paste
   editor.command:
     global:
     - vim
@@ -13,5 +15,7 @@ settings:
     - '{file}'
     - -c
     - normal {line}G{column0}l
+  scrolling.smooth:
+    global: false
   tabs.position:
     global: top

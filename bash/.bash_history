@@ -221,3 +221,15 @@ sudo pacman -S yazi
 wal -
 wal -R
 zsh
+$PATH
+exit
+echo $SHELL
+exit
+exit
+ls
+cat launch.sh
+nvim launch.sh 
+wal -R
+exit
+$SHELL
+exit

@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env zsh
 # wait for X to settle
 sleep 1
 
@@ -22,4 +22,3 @@ fi
 for m in $others; do
   MONITOR=$m polybar --reload secondary &
 done
-	

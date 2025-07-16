@@ -1,13 +1,6 @@
-electron33
-haskell-data-array-byte
-jmtpfs
+adwaita-qt6-git
 neofetch
-nerdfetch
-python-affine
-python-contextily
-python-mercantile
 python-pywal16
 python-pywalfox
-python-rasterio
-python-xyzservices
-tetris-terminal-git
+yay
+yay-debug

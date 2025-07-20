@@ -34,6 +34,7 @@ keepassxc
 kitty
 lazygit
 libreoffice-fresh
+librewolf-bin
 libva-intel-driver
 lightdm
 lightdm-gtk-greeter
@@ -47,6 +48,8 @@ neofetch
 neovim
 networkmanager
 nfs-utils
+nodejs
+npm
 openssh
 polybar
 pulseaudio
@@ -65,6 +68,7 @@ syncthing
 thunar
 thunderbird
 tmux
+unzip
 vim
 vlc
 vulkan-intel

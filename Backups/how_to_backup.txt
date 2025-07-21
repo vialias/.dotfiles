@@ -3,3 +3,4 @@
 1.1 erstelle mountpoint (hier sudo mkdir /mnt/Backup)
 2. sudo cryptsetup open /dev/sdx Backup -> Password eingeben
 3. sudo mount /dev/dm-1 /mnt/Backup
+3.1 sudo mount /dev/mapper/Backup /mnt/Backup	

@@ -233,3 +233,117 @@ wal -R
 exit
 $SHELL
 exit
+clear
+exit
+brigthnessctl set 100%
+sudo pacman -S brightnessctl
+brightnessctl set 100%
+yay -S pywal16
+sudo pacman -S yay
+sudo pacman -S git
+sudo pacman -S base-devel
+yay
+cd .dotfiles/
+la
+cd Xresources/
+la
+cat .changescaling.bash 
+./.changescaling.bash
+polybar
+polybar primary
+cd ..
+git status
+git pull
+git branch
+git branch
+yay -S pywal16
+polybar 
+polybar primary
+sudo pacman -Syu
+sudo pacman -S less
+git branch
+git pull
+cd 
+ls
+sudo pacman -S yazi
+y
+nvim
+polybar secondary
+sudo pacaman -S feh
+sudo pacman -S feh
+wal
+chsh
+chsh -l
+chsh
+tmux new-ses 
+tmux kill-ses
+tmux ls
+sudo pacman -S vim 
+clear
+lsblk
+sudo mount /dev/sdb1 /mnt/usb_stick/
+sudo cryptsetup open /dev/sda Backup
+lsblk
+sudo mount /dev/mapper/Backup /mnt/Backup
+cd /mnt/Backup/
+la
+ls
+cd fw13_backup/
+ls -lah
+cd .dotfiles
+la
+zsh
+ls -la
+cd packages/i3
+cd packages/.config/packages/
+la
+ls
+ls -lah
+cd /mnt/Backup
+ks
+ls
+cd 2025-05-29_fw13/
+la
+ls 
+ls -la
+cd ..
+cd fw13_backup/
+la
+ls
+cd .dotfiles/packages/.config/packages/
+ls
+cd /mnt/Backup/fw13_backup/
+ls
+cd .dotfiles
+ls
+cd Backups/
+ls
+cat backup-hdd.zsh 
+cd ..
+sudo pacman -S rsync
+cd
+sudo rsync -avh /mnt/Backup/fw13_backup/ /home/luc4/
+lsblk
+sudo umount /mnt/Backup/
+ls
+lsblk
+sudo cryptsetup close Backup
+lsblk
+zsh
+sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
+ls
+cd ..
+la
+cd .dotfiles
+ls
+cd i3/.config/i3
+la
+yay -S pywal16
+sudo pacman -S polybar
+cd 
+yay -S librewolf
+clear
+rebootr
+reboot
+zsh
+zsh

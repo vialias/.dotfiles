@@ -6,6 +6,8 @@
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
 font pango: Adwaita Mono 14
+exec --no-startup-id export GTK_THEME=Adwaita-dark
+
 
 # scaling
 # exec --no-startup-id xrandr --output eDP-1 --scale 1x1 --dpi 144

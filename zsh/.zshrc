@@ -115,3 +115,6 @@ export MANPAGER='nvim +Man!'
 
 # IGNORE History with spaec
 export HISTIGNORE='*'
+
+# Aliases
+alias vim="nvim"

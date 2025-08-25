@@ -13,6 +13,8 @@ exec --no-startup-id export GTK_THEME=Adwaita-dark
 # exec --no-startup-id xrandr --output eDP-1 --scale 1x1 --dpi 144
 # exec --no-startup-id xrandr --output eDP-1 --scale 0.5x0.5
 
+# zshrc
+exec --no-startup-id source ~/.zshrc
 
 
 # set the mod key to the winkey:
@@ -38,7 +40,7 @@ workspace_layout default
 ##############################
 
 #border indicator on windows:
-new_window pixel 1
+new_window pixel 5
 
 # thin borders
 # hide_edge_borders both
@@ -518,12 +520,12 @@ set_from_resource $rg i3wm.color5 #f0f0f0
 set_from_resource $ug i3wm.color6 #f0f0f0
 set_from_resource $fg i3wm.color7 #f0f0f0
 
-# class                 border  backgr. 	text 		indicator child_border
-client.focused          $yg     $tg    		$darkest  $bg       $bg
-client.focused_inactive $kg     $fg    $tg  	  $bg       $bg
-client.unfocused        $rg     $darkest    $tg 	  $bg       $bg
-client.urgent           $rg     $darkest    $tg		  $bg	    $bg
-client.placeholder      $rg     $darkest    $tg       $bg       $bg
+# class                 border  backgr. 	text 		  indicator child_border
+client.focused          $yg     $tg    		$darkest  $tg       $tg
+client.focused_inactive $kg     $fg       $tg  	    $bg       $bg
+client.unfocused        $rg     $darkest  $tg 	    $bg       $bg
+client.urgent           $rg     $darkest  $tg		    $bg	      $bg
+client.placeholder      $rg     $darkest  $tg       $bg       $bg
 
 client.background       $fg
 

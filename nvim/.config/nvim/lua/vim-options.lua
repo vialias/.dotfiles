@@ -24,3 +24,4 @@ vim.cmd("syntax on")
 vim.cmd("set shiftwidth=2")
 vim.cmd("set path+=**")
 vim.cmd("set ls=2")
+

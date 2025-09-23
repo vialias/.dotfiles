@@ -2,6 +2,8 @@ abcde
 arttime-git
 cd-discid
 cd-discid-debug
+gemini-cli
+gemini-cli-debug
 librewolf-bin
 log4c
 minecraft-launcher
@@ -28,6 +30,7 @@ python-validictory
 qview
 qview-debug
 tizonia-all-git
+vuescan-bin
 yay
 yay-debug
 youtube-dl

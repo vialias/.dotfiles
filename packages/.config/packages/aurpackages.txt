@@ -1,9 +1,13 @@
 abcde
+anki
+anki-debug
 arttime-git
 cd-discid
 cd-discid-debug
 gemini-cli
 gemini-cli-debug
+iamb
+iamb-debug
 librewolf-bin
 log4c
 minecraft-launcher

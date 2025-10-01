@@ -2,6 +2,7 @@ abcde
 amd-ucode
 android-tools
 android-udev
+anki
 arttime-git
 autorandr
 base
@@ -25,6 +26,7 @@ feh
 firefox
 flameshot
 flatpak
+foliate
 fuse2
 fwupd
 fzf
@@ -38,6 +40,7 @@ i3-wm
 i3blocks
 i3lock
 i3status
+iamb
 inetutils
 intel-media-driver
 iwd

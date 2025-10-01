@@ -1,0 +1,6 @@
+[profiles.user]
+user_id = "@luc4:matrix.tu-berlin.de"
+
+[settings.image_preview]
+protocoll.type = "kitty"
+

@@ -1,5 +1,10 @@
-[profiles.user]
+default_profile = "uni"
+
+[profiles.uni]
 user_id = "@luc4:matrix.tu-berlin.de"
+
+[profiles.vialias]
+user_id = "@vialias:matrix.org"
 
 [settings.image_preview]
 protocoll.type = "kitty"

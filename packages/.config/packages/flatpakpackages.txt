@@ -1,4 +1,4 @@
 Spotify	com.spotify.Client	1.2.63.394.g126b0d89	stable	system
-Obsidian	md.obsidian.Obsidian	1.9.12	stable	system
-Ferdium	org.ferdium.Ferdium	7.1.0	stable	system
+Obsidian	md.obsidian.Obsidian	1.9.14	stable	system
+Ferdium	org.ferdium.Ferdium	7.1.1	stable	system
 Zotero	org.zotero.Zotero	7.0.24	stable	system

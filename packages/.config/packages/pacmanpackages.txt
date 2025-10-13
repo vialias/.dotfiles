@@ -81,7 +81,10 @@ pulseaudio-alsa
 pulseaudio-bluetooth
 python-matplotlib
 python-numpy
+python-pip
+python-pipx
 python-pygame
+python-pynvim
 python-pywal16
 python-pywalfox
 python-scipy
@@ -137,6 +140,7 @@ vulkan-radeon
 wget
 whipper
 wireless_tools
+xdrfile
 xf86-video-amdgpu
 xf86-video-ati
 xf86-video-nouveau

@@ -1,3 +1,5 @@
 
 # Font
 set font "Adwaita Mono 10"
+# copy to clipboard
+set selection-clipboard clipboard

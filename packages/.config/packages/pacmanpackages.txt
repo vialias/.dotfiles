@@ -3,6 +3,7 @@ amd-ucode
 android-tools
 android-udev
 anki
+arandr
 arttime-git
 autorandr
 base
@@ -61,12 +62,14 @@ linux
 linux-firmware
 lxappearance
 ly
+makemkv
 man-db
 minecraft-launcher
 mpd
 mpv
 mullvad-vpn-beta
 nano
+ncpamixer
 neofetch
 neovim
 networkmanager
@@ -110,6 +113,7 @@ texlive-fontutils
 texlive-formatsextra
 texlive-games
 texlive-humanities
+texlive-langgerman
 texlive-latex
 texlive-latexextra
 texlive-latexrecommended

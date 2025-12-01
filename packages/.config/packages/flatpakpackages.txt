@@ -1,4 +1,5 @@
-Spotify	com.spotify.Client	1.2.63.394.g126b0d89	stable	system
-Obsidian	md.obsidian.Obsidian	1.9.14	stable	system
+Discord	com.discordapp.Discord	0.0.116	stable	system
+Spotify	com.spotify.Client	1.2.74.477.g3be53afe	stable	system
+Obsidian	md.obsidian.Obsidian	1.10.6	stable	system
 Ferdium	org.ferdium.Ferdium	7.1.1	stable	system
-Zotero	org.zotero.Zotero	7.0.24	stable	system
+Zotero	org.zotero.Zotero	7.0.30	stable	system

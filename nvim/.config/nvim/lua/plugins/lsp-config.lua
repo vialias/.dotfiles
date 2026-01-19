@@ -44,6 +44,8 @@ return {
 
       vim.keymap.set('n', 'gd', vim.lsp.buf.definition, { desc = "LSP Definition" })
       vim.keymap.set('n', 'K', vim.diagnostic.open_float, { desc = "LSP Diagnostics" })
+      vim.keymap.set('n', ']d', vim.diagnostic.goto_next, { desc = "Next Diagnostic" })
+      vim.keymap.set('n', '[d', vim.diagnostic.goto_prev, { desc = "Previous Diagnostic" })
     end
   },
 }

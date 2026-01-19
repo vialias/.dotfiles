@@ -17,6 +17,20 @@ return {
           function(server_name)
             lspconfig[server_name].setup({ capabilities = capabilities })
           end,
+          pylsp = function()
+            lspconfig.pylsp.setup({
+              capabilities = capabilities,
+              settings = {
+                pylsp = {
+                  plugins = {
+                    pycodestyle = { enabled = false },
+                    pyflakes = { enabled = false },
+                    mccabe = { enabled = false },
+                  },
+                },
+              },
+            })
+          end,
         },
       })
 

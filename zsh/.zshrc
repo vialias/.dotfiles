@@ -1,5 +1,8 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
+#
+# program Path
+export PATH="$PATH:/home/luc4/Documents/Uni/Bachelorarbeit/VMD-NAMD/NAMD_3.0.2_Linux-x86_64-multicore"
 
 # Path to your Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -118,3 +121,4 @@ export HISTIGNORE='*'
 
 # Aliases
 alias vim="nvim"
+
